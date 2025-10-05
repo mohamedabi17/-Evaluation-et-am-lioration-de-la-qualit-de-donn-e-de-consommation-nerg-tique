@@ -1,0 +1,7 @@
+apache-airflow==2.8.1
+pandas
+psycopg2-binary
+matplotlib
+seaborn
+numpy
+psutil

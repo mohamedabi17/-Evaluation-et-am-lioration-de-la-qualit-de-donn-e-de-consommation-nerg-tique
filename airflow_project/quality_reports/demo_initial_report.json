@@ -1,0 +1,110 @@
+{
+  "source_name": "population_paris_original",
+  "timestamp": "2025-10-05T18:07:52.254062",
+  "dataset_info": {
+    "total_rows": 51500,
+    "total_columns": 5,
+    "columns": [
+      "ID_Personne",
+      "Nom",
+      "Prenom",
+      "Adresse",
+      "CSP"
+    ]
+  },
+  "completeness": {
+    "ID_Personne": {
+      "missing_count": 0,
+      "missing_percentage": 0.0,
+      "complete_count": 51500,
+      "completeness_score": 100.0
+    },
+    "Nom": {
+      "missing_count": 1026,
+      "missing_percentage": 1.99,
+      "complete_count": 50474,
+      "completeness_score": 98.01
+    },
+    "Prenom": {
+      "missing_count": 756,
+      "missing_percentage": 1.47,
+      "complete_count": 50744,
+      "completeness_score": 98.53
+    },
+    "Adresse": {
+      "missing_count": 473,
+      "missing_percentage": 0.92,
+      "complete_count": 51027,
+      "completeness_score": 99.08
+    },
+    "CSP": {
+      "missing_count": 2578,
+      "missing_percentage": 5.01,
+      "complete_count": 48922,
+      "completeness_score": 94.99
+    }
+  },
+  "duplicates": {
+    "total_rows": 51500,
+    "duplicate_count": 1062,
+    "duplicate_percentage": 2.06,
+    "unique_rows": 50438,
+    "uniqueness_score": 97.94
+  },
+  "format_consistency": {
+    "ID_Personne": {
+      "total_non_null": 51500,
+      "data_types": {
+        "<class 'int'>": 51500
+      },
+      "numeric_convertible": 51500,
+      "format_consistency_score": 100.0
+    },
+    "CSP": {
+      "total_non_null": 48922,
+      "data_types": {
+        "<class 'str'>": 48922
+      },
+      "numeric_convertible": 38164,
+      "format_consistency_score": 78.01
+    }
+  },
+  "codification_consistency": {
+    "CSP": {
+      "total_values": 48922,
+      "unique_values": 23,
+      "valid_codes_count": 18191,
+      "invalid_codes_count": 30731,
+      "invalid_values": [
+        "6",
+        "9",
+        "5",
+        "7",
+        "employé",
+        "employes",
+        "8",
+        "NC",
+        "cadre",
+        "sans_activite",
+        "artisan",
+        "agriculteur",
+        "profession_intermediaire",
+        "retraité",
+        "X",
+        "cadres",
+        "99",
+        "ouvrier",
+        "0"
+      ],
+      "codification_score": 37.18
+    }
+  },
+  "quality_score": {
+    "completeness_score": 98.12,
+    "uniqueness_score": 97.94,
+    "format_score": 89.0,
+    "codification_score": 37.18,
+    "overall_quality_score": 83.61,
+    "quality_level": "Good"
+  }
+}

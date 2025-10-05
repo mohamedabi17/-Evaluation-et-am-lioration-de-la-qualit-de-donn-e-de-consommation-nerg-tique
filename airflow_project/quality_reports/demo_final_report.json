@@ -1,0 +1,92 @@
+{
+  "source_name": "population_paris_improved",
+  "timestamp": "2025-10-05T18:07:53.059821",
+  "dataset_info": {
+    "total_rows": 50438,
+    "total_columns": 5,
+    "columns": [
+      "ID_Personne",
+      "Nom",
+      "Prenom",
+      "Adresse",
+      "CSP"
+    ]
+  },
+  "completeness": {
+    "ID_Personne": {
+      "missing_count": 0,
+      "missing_percentage": 0.0,
+      "complete_count": 50438,
+      "completeness_score": 100.0
+    },
+    "Nom": {
+      "missing_count": 0,
+      "missing_percentage": 0.0,
+      "complete_count": 50438,
+      "completeness_score": 100.0
+    },
+    "Prenom": {
+      "missing_count": 0,
+      "missing_percentage": 0.0,
+      "complete_count": 50438,
+      "completeness_score": 100.0
+    },
+    "Adresse": {
+      "missing_count": 0,
+      "missing_percentage": 0.0,
+      "complete_count": 50438,
+      "completeness_score": 100.0
+    },
+    "CSP": {
+      "missing_count": 0,
+      "missing_percentage": 0.0,
+      "complete_count": 50438,
+      "completeness_score": 100.0
+    }
+  },
+  "duplicates": {
+    "total_rows": 50438,
+    "duplicate_count": 438,
+    "duplicate_percentage": 0.87,
+    "unique_rows": 50000,
+    "uniqueness_score": 99.13
+  },
+  "format_consistency": {
+    "ID_Personne": {
+      "total_non_null": 50438,
+      "data_types": {
+        "<class 'int'>": 50438
+      },
+      "numeric_convertible": 50438,
+      "format_consistency_score": 100.0
+    },
+    "CSP": {
+      "total_non_null": 50438,
+      "data_types": {
+        "<class 'str'>": 50438
+      },
+      "numeric_convertible": 50438,
+      "format_consistency_score": 100.0
+    }
+  },
+  "codification_consistency": {
+    "CSP": {
+      "total_values": 50438,
+      "unique_values": 5,
+      "valid_codes_count": 21587,
+      "invalid_codes_count": 28851,
+      "invalid_values": [
+        "0"
+      ],
+      "codification_score": 42.8
+    }
+  },
+  "quality_score": {
+    "completeness_score": 100.0,
+    "uniqueness_score": 99.13,
+    "format_score": 100.0,
+    "codification_score": 42.8,
+    "overall_quality_score": 88.34,
+    "quality_level": "Good"
+  }
+}

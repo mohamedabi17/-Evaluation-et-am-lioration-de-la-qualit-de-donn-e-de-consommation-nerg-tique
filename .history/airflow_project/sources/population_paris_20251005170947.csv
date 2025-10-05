@@ -1,0 +1,16 @@
+ID_Personne,Nom,Prenom,Adresse,CSP
+1,Durand,Marie,12 Rue de Rivoli,1
+2,Martin,Jean,34 Avenue des Champs-Elysées,2
+3,Lefevre,Claire,56 Boulevard Saint-Germain,3
+4,Petit,Luc,78 Rue de Rivoli,1
+5,Moreau,Emma,90 Rue Lafayette,2
+6,Bernard,Paul,123 Avenue Montaigne,1
+7,Dubois,Sophie,,2
+8,Robert,Pierre,45 Rue du Faubourg Saint-Honoré,3
+9,Richard,Anne,67 Boulevard Haussmann,
+10,Garcia,Carlos,89 Rue de la Paix,2
+11,Durand,Marie,12 Rue de Rivoli,1
+12,Thomas,Julie,101 Avenue Victor Hugo,3
+13,Moreau,Emma,90 Rue Lafayette,cadre
+14,Leroy,Michel,234 Rue Saint-Antoine,2
+15,Roux,Isabelle,345 Boulevard Voltaire,1

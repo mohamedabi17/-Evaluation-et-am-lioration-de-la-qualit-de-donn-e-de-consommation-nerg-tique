@@ -1,0 +1,9 @@
+ID_CSP,Desc,Salaire_Moyen,Salaire_Min,Salaire_Max
+1,Agriculteurs exploitants,25000,15000,45000
+2,"Artisans, commerçants et chefs d'entreprise",45000,20000,120000
+3,Cadres et professions intellectuelles supérieures,65000,40000,150000
+4,Professions intermédiaires,35000,25000,50000
+5,Employés,28000,20000,40000
+6,Ouvriers,25000,18000,35000
+7,Retraités,18000,8000,35000
+8,Autres personnes sans activité professionnelle,12000,0,25000

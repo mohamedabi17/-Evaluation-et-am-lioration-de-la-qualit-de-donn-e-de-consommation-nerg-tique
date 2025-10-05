@@ -1,0 +1,97 @@
+{
+  "source_name": "consommation_paris",
+  "timestamp": "2025-10-05T21:03:32.159380",
+  "dataset_info": {
+    "total_rows": 76500,
+    "total_columns": 5,
+    "columns": [
+      "ID_Adr",
+      "N",
+      "Nom_Rue",
+      "Code_Postal",
+      "NB_KW_Jour"
+    ]
+  },
+  "completeness": {
+    "ID_Adr": {
+      "missing_count": 0,
+      "missing_percentage": 0.0,
+      "complete_count": 76500,
+      "completeness_score": 100.0
+    },
+    "N": {
+      "missing_count": 1475,
+      "missing_percentage": 1.93,
+      "complete_count": 75025,
+      "completeness_score": 98.07
+    },
+    "Nom_Rue": {
+      "missing_count": 0,
+      "missing_percentage": 0.0,
+      "complete_count": 76500,
+      "completeness_score": 100.0
+    },
+    "Code_Postal": {
+      "missing_count": 0,
+      "missing_percentage": 0.0,
+      "complete_count": 76500,
+      "completeness_score": 100.0
+    },
+    "NB_KW_Jour": {
+      "missing_count": 1925,
+      "missing_percentage": 2.52,
+      "complete_count": 74575,
+      "completeness_score": 97.48
+    }
+  },
+  "duplicates": {
+    "total_rows": 76500,
+    "duplicate_count": 1500,
+    "duplicate_percentage": 1.96,
+    "unique_rows": 75000,
+    "uniqueness_score": 98.04
+  },
+  "format_consistency": {
+    "ID_Adr": {
+      "total_non_null": 76500,
+      "data_types": {
+        "<class 'int'>": 76500
+      },
+      "numeric_convertible": 76500,
+      "format_consistency_score": 100.0
+    },
+    "N": {
+      "total_non_null": 75025,
+      "data_types": {
+        "<class 'float'>": 75025
+      },
+      "numeric_convertible": 75025,
+      "format_consistency_score": 100.0
+    },
+    "Code_Postal": {
+      "total_non_null": 76500,
+      "data_types": {
+        "<class 'int'>": 76500
+      },
+      "numeric_convertible": 76500,
+      "format_consistency_score": 100.0
+    },
+    "NB_KW_Jour": {
+      "total_non_null": 74575,
+      "data_types": {
+        "<class 'float'>": 74575
+      },
+      "numeric_convertible": 74575,
+      "format_consistency_score": 100.0
+    }
+  },
+  "codification_consistency": {},
+  "quality_score": {
+    "completeness_score": 99.11,
+    "uniqueness_score": 98.04,
+    "format_score": 100.0,
+    "codification_score": 0,
+    "overall_quality_score": 79.24,
+    "quality_level": "Fair"
+  }
+}

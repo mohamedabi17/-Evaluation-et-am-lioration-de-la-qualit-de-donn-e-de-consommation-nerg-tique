@@ -1,0 +1,104 @@
+{
+  "source_name": "consommation_paris_improved",
+  "timestamp": "2025-10-05T21:03:41.939644",
+  "dataset_info": {
+    "total_rows": 75000,
+    "total_columns": 6,
+    "columns": [
+      "ID_Adr",
+      "N",
+      "Nom_Rue",
+      "Code_Postal",
+      "NB_KW_Jour",
+      "High_Consumption_Flag"
+    ]
+  },
+  "completeness": {
+    "ID_Adr": {
+      "missing_count": 0,
+      "missing_percentage": 0.0,
+      "complete_count": 75000,
+      "completeness_score": 100.0
+    },
+    "N": {
+      "missing_count": 0,
+      "missing_percentage": 0.0,
+      "complete_count": 75000,
+      "completeness_score": 100.0
+    },
+    "Nom_Rue": {
+      "missing_count": 0,
+      "missing_percentage": 0.0,
+      "complete_count": 75000,
+      "completeness_score": 100.0
+    },
+    "Code_Postal": {
+      "missing_count": 0,
+      "missing_percentage": 0.0,
+      "complete_count": 75000,
+      "completeness_score": 100.0
+    },
+    "NB_KW_Jour": {
+      "missing_count": 0,
+      "missing_percentage": 0.0,
+      "complete_count": 75000,
+      "completeness_score": 100.0
+    },
+    "High_Consumption_Flag": {
+      "missing_count": 74631,
+      "missing_percentage": 99.51,
+      "complete_count": 369,
+      "completeness_score": 0.4899999999999949
+    }
+  },
+  "duplicates": {
+    "total_rows": 75000,
+    "duplicate_count": 0,
+    "duplicate_percentage": 0.0,
+    "unique_rows": 75000,
+    "uniqueness_score": 100.0
+  },
+  "format_consistency": {
+    "ID_Adr": {
+      "total_non_null": 75000,
+      "data_types": {
+        "<class 'int'>": 75000
+      },
+      "numeric_convertible": 75000,
+      "format_consistency_score": 100.0
+    },
+    "N": {
+      "total_non_null": 75000,
+      "data_types": {
+        "<class 'float'>": 75000
+      },
+      "numeric_convertible": 75000,
+      "format_consistency_score": 100.0
+    },
+    "Code_Postal": {
+      "total_non_null": 75000,
+      "data_types": {
+        "<class 'int'>": 75000
+      },
+      "numeric_convertible": 75000,
+      "format_consistency_score": 100.0
+    },
+    "NB_KW_Jour": {
+      "total_non_null": 75000,
+      "data_types": {
+        "<class 'float'>": 75000
+      },
+      "numeric_convertible": 75000,
+      "format_consistency_score": 100.0
+    }
+  },
+  "codification_consistency": {},
+  "quality_score": {
+    "completeness_score": 83.42,
+    "uniqueness_score": 100.0,
+    "format_score": 100.0,
+    "codification_score": 0,
+    "overall_quality_score": 75.02,
+    "quality_level": "Fair"
+  }
+}
